@@ -10,3 +10,4 @@ The readme file for shell permissions
 8-James_Bond revokes all permissions from the owner and group owner, but grants users all access
 9-John_Doe grants all permisons to owne, read and execute permission to group owner, and then write and excute permission to other users
 10-mirror_permissions sets the permissions of hello to the like of olleh
+11-directories_permissions add execute permission for all directions and subdirectories
