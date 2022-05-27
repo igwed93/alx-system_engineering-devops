@@ -12,3 +12,4 @@ The readme file for shell permissions
 10-mirror_permissions sets the permissions of hello to the like of olleh
 11-directories_permissions add execute permission for all directions and subdirectories
 12-directory_permissions creates a directory called my_dir with permissions 751 in the working directory
+13-change_group changes the ownerof the file hello to school
