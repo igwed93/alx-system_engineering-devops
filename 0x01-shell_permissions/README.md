@@ -8,3 +8,4 @@ The readme file for shell permissions
 6-multpile permission adds execute permission to the owner and the group owner, and read permission to other users to the file 'hello'
 7-everybody adds execution permission for everybody!
 8-James_Bond revokes all permissions from the owner and group owner, but grants users all access
+9-John_Doe grants all permisons to owne, read and execute permission to group owner, and then write and excute permission to other users
