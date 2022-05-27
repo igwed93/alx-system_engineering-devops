@@ -14,3 +14,4 @@ The readme file for shell permissions
 12-directory_permissions creates a directory called my_dir with permissions 751 in the working directory
 13-change_group changes the ownerof the file hello to school
 100-change_owner_and_group chnages the owner to vincent and the group owner to staff
+101-symbolic_link_permissions changes the owner and group for '_hello' to vincent and staff respectively
