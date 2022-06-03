@@ -8,3 +8,4 @@
 7-file creates a file \*\'Best School\'\*$\?\*\*\*\*\*:) with the content 'Best School'
 8-cwd_state appends the results of ls -la to ls_cwd_content
 8-cwd_state appends the results of ls -la to ls_cwd_content
+10-no_more_js deletes all the regular files with a .js extension in the current directory and its subdirectories
