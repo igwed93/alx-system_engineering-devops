@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -path  /etc/passwd -name "*root" -print | echo >> word | cat word 
+grep root /etc/passwd
