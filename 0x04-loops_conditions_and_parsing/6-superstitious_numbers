@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# This script displays numbers from 1 to 20 and
+# displays 4 and then "bad luck from China"
+# display 9 and then "bad luck from Japan"
+# displays 17 and then "bad luck from Italy"
+
+t=1
+while (( t <= 20));
+do
+    case "$t" in
+        4)
+	    echo "$t"; echo "bad luck from China"
+	    ;;
+	9)
+	    echo "$t"; echo "bad luck from Japan"
+	    ;;
+	17)
+	    echo "$t"; echo "bad luck from Italy"
+	    ;;
+	*)
+	    echo "$t";
+    esac
+    (( t++ ));
+done
