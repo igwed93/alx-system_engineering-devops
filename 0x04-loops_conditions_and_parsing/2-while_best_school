@@ -2,7 +2,8 @@
 # This script prints "Best School" 10 times using a while loop
 
 count=0
+str="Best School"
 while [ $count -lt 10 ]; do
-    echo "Best School"
+    echo "$str"
     ((count=count+1))
 done
