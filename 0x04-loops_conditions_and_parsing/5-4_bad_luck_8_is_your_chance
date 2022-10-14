@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script prints "Best School" 10 times. It displays "bad luck" and "good luck"
+# on the 4th and 8th iteration respectively.
+
+c=1
+while [ $c -le 10 ];
+do
+    echo "Best School";
+    if [ $c -eq 4 ]; then
+        echo "bad luck";
+    elif [ $c -eq 8 ]; then
+        echo "good luck";
+    fi
+    (( c++ ));
+done
