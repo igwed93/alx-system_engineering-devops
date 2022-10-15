@@ -3,8 +3,8 @@
 # in a list format
 # where only the part of the name after the first dash is displayed
 
-list=$(ls | cut -d "-" -f 2)
-for i in "${list[@]}";
+files=$(ls)
+for i in "${files[@]}";
 do
-    echo "$i";
+    echo "$i" | cut -d "-" -f 2
 done
