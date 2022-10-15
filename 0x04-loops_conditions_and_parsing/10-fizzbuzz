@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script displays the numbers 1 - 100
+# It displays fizz for numbers that are multiples of 3
+# It displays buzz for number that are multiples of 5
+# And it displays fizzbuzz for numbers that are miultiples of 3 & 5
+
+for n in $(seq 1 100);
+do
+    if (( n % 15 == 0 )); then
+        echo "fizzbuzz"
+    elif (( n % 5 == 0 )); then
+        echo "buzz"
+    elif (( n % 3 == 0)); then
+        echo "fizz"
+    else
+        echo "$n"
+    fi
+done
