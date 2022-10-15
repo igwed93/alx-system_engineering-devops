@@ -7,11 +7,11 @@
 for n in $(seq 1 100);
 do
     if (( n % 15 == 0 )); then
-        echo "fizzbuzz"
+        echo "FizzBuzz"
     elif (( n % 5 == 0 )); then
-        echo "buzz"
+        echo "Buzz"
     elif (( n % 3 == 0)); then
-        echo "fizz"
+        echo "Fizz"
     else
         echo "$n"
     fi
