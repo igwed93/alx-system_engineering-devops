@@ -2,16 +2,8 @@
 # This script displays the content of the file /etc/passwd, using the while loop + IFS
 
 filename="/etc/passwd"
-while IFS= read -r line;
+while IFS=":" read -r user pw uid gid uinfo homedir shell
 do
-    username="$(echo "$line" | cut -d ":" -f 1)"
-    password="$(echo "$line" | cut -d ":" -f 2)"
-    uid="$(echo "$line" | cut -d ":" -f 3)"
-    gid="$(echo "$line" | cut -d ":" -f 4)"
-    gecos="$(echo "$line" | cut -d ":" -f 5)"
-    homedir="$(echo "$line" | cut -d ":" -f 6)"
-    shell="$(echo "$line" | cut -d ":" -f 7)"
-    content="The user $username is part of the $gid gang, lives in $homedir and rides $shell. \
-	    $uid\'s place is protected by the passcode $password, more info about the user here: $gecos"
-    echo "$content" | xargs
+    echo "The user $user is part of the $gid gang, lives in $homedir and rides $shell. \
+$uid's place is protected by the passcode $pw, more info about the user here: $uinfo"
 done < $filename
