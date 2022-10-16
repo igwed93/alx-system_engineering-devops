@@ -12,6 +12,6 @@ do
     homedir="$(echo "$line" | cut -d ":" -f 6)"
     shell="$(echo "$line" | cut -d ":" -f 7)"
     content="The user $username is part of the $gid gang, lives in $homedir and rides $shell. \
-	    $uid place is protected by the passcode $password, more info about the user here: $gecos"
+	    $uid\'s place is protected by the passcode $password, more info about the user here: $gecos"
     echo "$content" | xargs
 done < $filename
