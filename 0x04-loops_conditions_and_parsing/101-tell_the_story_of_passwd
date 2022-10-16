@@ -13,6 +13,5 @@ do
     shell="$(echo "$line" | cut -d ":" -f 7)"
     content="The user $username is part of the $gid gang, lives in $homedir and rides $shell. \
 	    $uid place is protected by the passcode $password, more info about the user here: $gecos"
-    content="$(echo $content | sed -e 's/^[[:space:]]*//')"
-    echo "$content"
+    echo "$content" | xargs
 done < $filename
