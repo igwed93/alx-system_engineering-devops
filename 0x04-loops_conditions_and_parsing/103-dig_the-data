@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+file="apache-access.log"
+
+grep '/Feb/2016' $file | awk '{print $1" " $9}' | sort | uniq -c | sort -h -r
