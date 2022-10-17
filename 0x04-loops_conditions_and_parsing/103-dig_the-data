@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
+# This script groups visitors by IP and HTTP status code, and displays this data
 
 file="apache-access.log"
-
 grep '/Feb/2016' $file | awk '{print $1" " $9}' | sort | uniq -c | sort -h -r
