@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# Bash script that terminates another process running in another terminal
+
+pkill -f "7-highlander"#!/usr/bin/env bash
+# Script to kill another script running in another terminal (need -f to find pid)
+
+pkill -f "7-highlander"#!/usr/bin/env bash
+# Script to kill another script running in another terminal (need -f to find pid)
+
+pkill -f "7-highlander"#!/usr/bin/env bash
+# Script to kill another script running in another terminal (need -f to find pid)
+
+pkill -f "7-highlander"#!/usr/bin/env bash
+# Script to kill another script running in another terminal (need -f to find pid)
+
+pkill -f "7-highlander"#!/usr/bin/env bash
+# Script to kill another script running in another terminal (need -f to find pid)
+
+pkill -f "7-highlander"#!/usr/bin/env bash
+# Script to kill another script running in another terminal (need -f to find pid)
+
+pkill -f "7-highlander"#!/usr/bin/env bash
+# Script to kill another script running in another terminal (need -f to find pid)
+
+pkill -f "7-highlander"#!/usr/bin/env bash
+# Script to kill another script running in another terminal (need -f to find pid)
+
+pkill -f "7-highlander"
