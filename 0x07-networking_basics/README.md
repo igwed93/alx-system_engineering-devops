@@ -10,4 +10,4 @@ In this project, I learned a lot of concepts including:
 **. IPv4 & IPv6**
 **. Localhost**
 **. TCP & UDP**
-**. Positional paramters**
+**. Positional parameters**
