@@ -1,4 +1,4 @@
-# Using puppet creare a file with the specifications below.
+# Using puppet, create a file with the specifications below.
 
 file { '/tmp/school':
   ensure  => file,
