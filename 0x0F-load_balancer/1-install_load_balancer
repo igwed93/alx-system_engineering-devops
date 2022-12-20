@@ -1,4 +1,5 @@
-s script installs a load balancer haproxy and configures it
+#!/usr/bin/env bash
+# This script installs a load balancer haproxy and configures it
 
 sudo apt-get -y install --no-install-recommends software-properties-common
 sudo add-apt-repository -y ppa:vbernat/haproxy-2.6
