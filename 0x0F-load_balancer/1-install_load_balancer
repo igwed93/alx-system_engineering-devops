@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script installs a load balancer haproxy and configures it
+# Install and configure HAproxy on your lb-01 server.
 
 apt-get -y install software-properties-common
 add-apt-repository -y ppa:vbernat/haproxy-2.6
