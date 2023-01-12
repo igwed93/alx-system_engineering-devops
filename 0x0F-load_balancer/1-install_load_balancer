@@ -7,5 +7,6 @@ apt-get -y update
 apt-get install haproxy=2.7.\*
 
 sed -i -e "$aENABLED=1\n" /etc/default/haproxy
-sed -i -e "$a\frontend igwed93-frontend\n\tbind *:80\n\tmode http\n\tdefault_backend igwed93-backend\nbackend igwed93-backend\n\tbalance roundrobin\n\tserver 50998-web-01 54.87.213.168:80 check\n\tserver 50998-web-02 52.91.120.47:80 check\n" /etc/haproxy/haproxy.cfg
+sed -i -e '$a\listen balancer\n\tbind :80\n\tbalance roundrobin\n\tserver 50998-web-01 54.87.213.168:80 check\n\tserver 50998-web-02 52.91.120.47:80 check\n' /etc/haproxy/haproxy.cfg
+
 service haproxy restart
