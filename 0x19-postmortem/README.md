@@ -46,3 +46,7 @@ Yesterday, we conducted an internal review and analysis of the outage. The follo
 - Simulate rollouts of all configuration changes to get a sense of the changes' impacts.
 - Include a time efficient rollback mechanism and improve the traffic ramp-up process, so that any future problems of this type can be corrected quickly.
 - Develop better mechanism for quickly delivering status notifications during incidents.
+
+![stock-photo-dog-jack-russell-terrier-in-glasses-and-a-tie-sits-at-a-desk-and-works-at-a-computer-on-a-white-1944325159](https://user-images.githubusercontent.com/105175646/221517296-4053c00a-4b66-4e15-8dc5-9ef9e8d702b0.jpg)
+
+Thank You :)
