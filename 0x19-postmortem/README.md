@@ -1,3 +1,6 @@
+![banner-gfbbd24d75_1920](https://user-images.githubusercontent.com/105175646/221516748-d9d344a7-c2f7-4d3a-af6b-2ded4c013072.jpg)
+
+
 # TripiiTech API Infrastructure outage incident report
 
 Feb 21, 2023
