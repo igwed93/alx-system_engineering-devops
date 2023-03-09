@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python1
 """
 2-main
 """
