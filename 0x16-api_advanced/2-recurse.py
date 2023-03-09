@@ -6,7 +6,7 @@ import sys
 after = None
 
 
-def recurser(subreddit, hot_list=[]):
+def recurse(subreddit, hot_list=[]):
     """    Args:
         subreddit: subreddit name
         hot_list: list of hot title in subreddit
