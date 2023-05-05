@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Bash script displays DNS records: record type, IP, subdomains
+# NB: declare is used for more advanced variable declaration
 
 func () {
 	if [ "$#" -lt 1 ]
