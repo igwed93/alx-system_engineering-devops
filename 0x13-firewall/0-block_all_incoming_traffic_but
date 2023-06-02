@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# configures ubuntu to deny all incoming traffic except some specific TCP ports.
+# configures ubuntu to deny all incoming traffic except specific TCP ports.
 
 # install the firewall
 sudo apt -y update
 sudo apt -y install ufw
 
-# configure firewall to reject incoming traffic
+# configure firewall to reject incoming and outgoing traffics
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
