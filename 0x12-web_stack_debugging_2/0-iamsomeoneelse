@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Bash script that switches user to the user passed as an argument.
 
-sudo -u "$1" whoami
+sudo -Hu "$1" whoami
